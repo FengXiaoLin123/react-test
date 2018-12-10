@@ -1,0 +1,16 @@
+# dependencies
+**/node_modules
+
+# production
+/dist
+/.vscode
+
+# misc
+.DS_Store
+src/.DS_Store
+npm-debug.log*
+yarn-error.log
+
+.idea
+yarn.lock
+*bak
