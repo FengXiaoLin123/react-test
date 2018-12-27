@@ -1,0 +1,98 @@
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: auto;
+}
+
+html {
+  .ant-popover {
+    font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+  }
+  .ant-menu {
+    font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+  }
+}
+
+
+body {
+  background: #fff;
+  font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  &:hover, &:active, &:focus, &:visited {
+    background-color: transparent;
+  }
+}
+
+em {
+  font-style: normal;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.rt-clear-float {
+  zoom: 1;
+}
+.rt-clear-float:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+#app {
+  .ant-btn {
+    font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+  }
+  .ant-table {
+    font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+  }
+  .ant-popover {
+    font-family: Arial, "Segoe UI","Lucida Grande",Helvetica,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+  }
+
+  @placeholderFontSize: 12px;
+  // 修改 placeholder 样式
+  input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #C8CAD1;
+    font-size: @placeholderFontSize;
+  }
+  input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#C8CAD1;
+    font-size: @placeholderFontSize;
+
+  }
+  input:moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #C8CAD1;
+    font-size: @placeholderFontSize;
+
+  }
+  input::-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #C8CAD1;
+    font-size: @placeholderFontSize;
+  }
+}
+.rt-layout-wrap {
+  &.ant-layout {
+    background: #fff;
+  }
+}
+.rt-body-wrap {
+  padding-top: 101px;
+}
+
